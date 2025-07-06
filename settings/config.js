@@ -27,9 +27,9 @@ module.exports = {
     Nodes: [
       { 
         name: "L1",
-        url: "lavalink4.alfari.id:443",
-        auth: "catfein",
-        secure: true,
+        url: "lavalink.jirayu.net:13592",
+        auth: "youshallnotpass",
+        secure: false,
       } 
     ],
 }
