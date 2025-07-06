@@ -27,7 +27,7 @@ module.exports = {
     Nodes: [
       { 
         name: "L1",
-        url: "38.46.219.162:40404",
+        url: "lavalink.jirayu.net:13592",
         auth: "youshallnotpass",
         secure: false,
       } 
