@@ -27,8 +27,8 @@ module.exports = {
     Nodes: [
       { 
         name: "L1",
-        url: "lavalink.jirayu.net:13592",
-        auth: "youshallnotpass",
+        url: "lavalink.serenetia.com:80",
+        auth: "https://dsc.gg/ajidevserver",
         secure: false,
       } 
     ],
