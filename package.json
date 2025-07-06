@@ -11,7 +11,7 @@
     "chalk": "^4.1.0",
     "discord.js": "^14.14.1",
     "humanize-duration": "^3.27.1",
-    "kazagumo": "^3.0.3",
+    "kazagumo": "^3.3.0",
     "kazagumo-apple": "^2.0.2",
     "kazagumo-deezer": "^2.0.2",
     "kazagumo-filter": "^2.0.0",
@@ -19,7 +19,7 @@
     "mongoose": "^8.2.2",
     "node-cron": "^3.0.0",
     "pretty-bytes": "^5.6.0",
-    "shoukaku": "^4.0.1",
+    "shoukaku": "^4.1.1",
     "undici": "^6.10.1",
     "voucher-code-generator": "^1.1.1"
   },
