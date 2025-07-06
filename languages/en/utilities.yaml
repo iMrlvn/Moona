@@ -1,0 +1,19 @@
+##### Language command #####
+lang_perm: "You need the `MANAGE_GUILD` permission to use this command."
+lang_arg: "Please specify a language!"
+provide_lang: "Please provide languages: `%{languages}`"
+lang_set: "`🔧` | *Language has been set to:* `%{language}`"
+lang_change: "`🔧` | *Language has been change to:* `%{language}`"
+lang_error: "Something went wrong please try again later."
+
+##### Restart command #####
+restart_msg: "`🤖` | *Client is:* `Shutting down`"
+
+##### Help command #####
+help_title: "%{bot} - Help"
+help_desc: "Hewoo, here is my commands list.\naLearn about specific command? use `%{prefix}help {command}`\nNeed more help? Come join our [Support Server](%{serverLink})"
+help_footer: "Use the buttons below for specific command info for each category!"
+help_available: "Available › %{size} commands"
+help_not_found: "Oh no! I don't find `%{query}` commands."
+help_button_home: "‹ Homepage"
+help_timeout: "Button automatically disabled after inactive on 5 minutes."

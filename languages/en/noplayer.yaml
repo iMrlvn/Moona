@@ -1,0 +1,10 @@
+##### Need to join voice channel to use command! #####
+
+# No song playing in guild!
+no_player: "Music is not currently playing on this server."
+
+# Need to join voice channel to use command!
+no_voice: "You need to be in a **Voice Channel**!"
+
+# Need to same voice channel to use command!
+no_same_voice: "You need to be in **My Voice Channel**!"
