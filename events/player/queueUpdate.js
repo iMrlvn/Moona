@@ -18,11 +18,11 @@ module.exports = class {
 
 	////////// End Update Music Setup //////////
 
-	const embed = new EmbedBuilder()
+	/*const embed = new EmbedBuilder()
 		.setColor(client.color)
 		.setDescription(`${client.i18n.get(language, "player", "queue_end_desc")}`);
 
-	await channel.send({ embeds: [embed] });
+	await channel.send({ embeds: [embed] });*/
 	return // player.destroy();
     }
 }
