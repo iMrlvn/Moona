@@ -19,9 +19,6 @@ module.exports = {
             type: ApplicationCommandOptionType.Subcommand
         }
     ],
-    clientPermissions: ["AttachFiles"],
-    playerPermissions: ["InVoiceChannel", "InSameVoiceChannel"],
-    isPlayer: true,
     async execute(ci) {
         await ci.deferReply({ ephemeral: false});
 
