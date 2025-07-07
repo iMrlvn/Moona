@@ -30,6 +30,24 @@ module.exports = {
         url: "38.46.219.162:40404",
         auth: "youshallnotpass",
         secure: false,
-      } 
+      },
+      {
+        name: "L2",
+        url: "lavalink.jirayu.net:13592",
+        auth: "youshallnotpass",
+        secure: false,
+      },
+      {
+        name: "L3",
+        url: "lavalinkv4.serenetia.com:80",
+        auth: "https://dsc.gg/ajidevserver",
+        secure: false
+      },
+      {
+        name: "L4",
+        url: "lavalink.serenetia.com:80",
+        auth: "https://dsc.gg/ajidevserver",
+        secure: false
+      }
     ],
 }
