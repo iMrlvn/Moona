@@ -17,7 +17,7 @@ module.exports = {
       directory: resolve("languages"), // <= location of language
     },
 
-    Developer: ["561170896480501790"], // if you want to use command bot only, you can put your id here example: ["123456789", "123456789"]
+    Developer: ["561170896480501790", "656099976681750529"], // if you want to use command bot only, you can put your id here example: ["123456789", "123456789"]
 
     MongoUri: process.env.MongoUri || "", // your mongo uri
     TrackLimit: parseInt(process.env.TrackLimit || "25"),  //<= dafault is "50" // limit track in playlist

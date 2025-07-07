@@ -21,7 +21,6 @@ module.exports = new MoonaCommand({
                 .setAuthor({ name: 'Lavalink Node' })
                 .setThumbnail(ci.client.user.displayAvatarURL({ forceStatic: true, size: 1024 }))
                 .setTitle(`${node.name} [\`${node.state==2 ? "🟢" : "🔴"}\`]`)
-                .setDescription(`${node.version.replaceAll("/", "")}`)
                 .addFields({ name: "Uptime", value: `<t:${Math.round((Date.now() - node.stats.uptime) / 1000)}:R>`, inline:true })
                 .addFields({ name: "Player", value: `${node.stats.playingPlayers} / ${node.stats.players}`, inline:true })
                 .addFields({ name: "Memory Usage", value: `${prettyBytes(node.stats.memory.used)} / ${prettyBytes(node.stats.memory.reservable)}`, inline:true })
