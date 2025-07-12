@@ -26,25 +26,31 @@ module.exports = {
     DefaultSource: "spotify", // default search engine & "ytmsearch" / "ytsearch" / "scsearch" / "spsearch"
     Nodes: [
       { 
-        name: "L1",
+        name: "N0",
+        url: "lavalink-docker.up.railway.app:443",
+        auth: "youshallnotpass",
+        secure: true,
+      },
+      { 
+        name: "N1",
         url: "38.46.219.162:40404",
         auth: "youshallnotpass",
         secure: false,
       },
       {
-        name: "L2",
+        name: "N2",
         url: "lavalink.jirayu.net:13592",
         auth: "youshallnotpass",
         secure: false,
       },
       {
-        name: "L3",
+        name: "N3",
         url: "lavalinkv4.serenetia.com:80",
         auth: "https://dsc.gg/ajidevserver",
         secure: false
       },
       {
-        name: "L4",
+        name: "N4",
         url: "lavalink.serenetia.com:80",
         auth: "https://dsc.gg/ajidevserver",
         secure: false
